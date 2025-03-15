@@ -1,6 +1,6 @@
 // El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
 
-//Agregar amigo// debe validas que sea diferente de vacío y que se ingrese en un array.
+//Agregar amigo// debe validar que sea diferente de vacío y que se ingrese en un array.
 const listaAmigos = [];
 
 function agregarAmigo() {
