@@ -30,3 +30,17 @@ function mostrarLista() {
         lista.appendChild(li);
     });
 }
+
+function sortearAmigo() {
+    if (listaAmigos.length === 0) {
+        alert('La lista está vacía. Agrega al menos un amigo.');
+        return;
+    }
+
+    const indiceAleatorio = Math.floor(Math.random() * listaAmigos.length);
+    const amigoSeleccionado = listaAmigos[indiceAleatorio];
+
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<a>🎉 Amigo Secreto: ${amigoSeleccionado} 🎁</a>`;
+}
+
